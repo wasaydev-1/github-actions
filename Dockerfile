@@ -6,7 +6,7 @@ RUN ls
 
 ENV APP_HOME /usr/src/app
 
-COPY target/bankapp-0.0.1-SNAPSHOT.jar $APP_HOME/app.jar
+COPY app/*.jar /usr/src/app/app.jar
 
 WORKDIR $APP_HOME
 
