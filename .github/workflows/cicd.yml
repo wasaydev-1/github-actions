@@ -78,7 +78,7 @@ jobs:
     - name: Upload JAR atifact
       uses: actions/upload-artifact@v4
       with:
-       name: app.jar
+       name: app-jar
        path: target/*.jar
     
    
